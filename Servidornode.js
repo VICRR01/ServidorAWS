@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   /*res.sendFile(
     "D:/DOCUMENTOS/CURSOS/SEMINARIO/SERVIDOR/expressServer/images/hello-world.jpg"
   );*/
-  res.sendFile(path.join(__dirname + "/images/hello-world.jpg"));
+  res.sendFile(path.join(__dirname + "/img/hello-world 2.jpg"));
 });
 
 app.listen(3000, () => {
